@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/views/index.html')
 });
 
-const mongourl = "mongodb+srv://Rithik:8Characters@cookiebytes.8ahocyp.mongodb.net/?retryWrites=true&w=majority";
+const mongourl = "";
 
 mongoose.connect(mongourl, { useNewUrlParser: true, useUnifiedTopology: true });
 
